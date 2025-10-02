@@ -18,5 +18,81 @@ img {
   max-width: 100%;
 }
 
+.blog {
+  background-color: #fff;
+}
 
+.blog-entry {
+  background-color: lightcyan;
+  border-radius: 0.9rem;
+  height: 40rem;
+  display: flex;
+  width: 100%;
+  max-width: 100rem;
+  margin: auto;
+}
 
+.blog-entry img {
+  width: 20%;
+  object-fit: cover;
+
+}
+
+.blog-entry2 img {
+  width: 20%;
+  object-fit: cover;
+
+}
+
+.blog-content {
+  width: 80%;
+  padding: 4rem;
+}
+
+.blog h2 {
+  text-align: center;
+}
+
+.sobre-nosotros {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+  padding: 2rem;
+}
+
+.contacto h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 60rem;
+  margin: auto;
+}
+
+form label {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  padding: 1rem;
+  font-size: 1.6rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+
+form button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+}
+
+form button:hover {
+  background-color: #333;
+}
